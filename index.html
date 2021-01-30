@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapso</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/logonav.png"
+    />
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="https://kit.fontawesome.com/ebd2c7db6a.js" crossorigin="anonymous"></script>
+    <script>
+      smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      });
+    </script>
+    <!--Tipografias-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logonav.png" alt="" height="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse d-flex flex-row-reverse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-scroll href="#home" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-scroll href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotrxs">Nosotrxs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contacto" tabindex="-1" >Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </header>
+
+    <div class="container-fluid home " id="home">
+       <div class="row">
+        <div class="col-12 text-center">
+            <h1>LAPSO</h1>
+        </div>
+        </div> 
+
+        <div class="row">
+            <div class="col-xl-6 col-xs-12 d-flex justify-content-center align-items-center ">
+                <video src="img/prueba2.mp4 " height="300px" autoplay muted loop ></video>
+            
+            </div>
+
+            
+            <div class="col-xl-6 col-xs-12 d-flex justify-content-center d-flex align-items-center">
+                <p>Somos una cooperativa de diseño web y comunicación. Nuestro objetivo es ayudar a emprendimientos sustentables. 
+                    Si tenes uno te podemos ayudar a crecer en la web y redes sociales. Animate!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid proyectos" id="proyectos">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>¿Que necesitas?</h1>
+            </div>
+        </div> 
+        <div class="row">
+            
+            <div class="col-xl-12 col-xs-12 d-flex justify-content-center align-items-center ">
+                <section class="main">
+                    <section class="accordion-container d-flex justify-content-center">
+            
+                      <div class="accordion-faq">
+                        
+                        <div class="tab">
+                          <input id="tab-1" class="tab" type="checkbox" />
+                          <label for="tab-1">Página web</label>
+                          <div class="tab-content ">
+                            Páginas webs personalizadas para mostrar organizadamente tus productos e información y así puedas amplíar tu público.
+                          </div>
+                        </div>
+              
+                        <div class="tab">
+                          <input id="tab-2" class="tab" type="checkbox" />
+                          <label for="tab-2">Identidad para redes</label>
+                          <div class="tab-content">
+                            Soluciones creativas, desarrollamos contenidos de calidad para que tus redes destaquen.
+                          </div>
+                        </div>
+              
+                        <div class="tab">
+                          <input id="tab-3" class="tab" type="checkbox" />
+                          <label for="tab-3">Audiovisual</label>
+                          <div class="tab-content">
+                            Producimos tu vídeo con distintas tecnicas para que puedas trasmitir el mensaje de tu emprendimiento.
+                          </div>
+                        </div>
+
+                        <div class="tab">
+                            <input id="tab-4" class="tab" type="checkbox" />
+                            <label for="tab-4">Logotipos</label>
+                            <div class="tab-content">
+                              Envianos un mensaje a 5545454 con la cantidad de cuadernos que queres.
+                            </div>
+                          </div>
+                          </section>
+                  </section>
+            </div>
+
+            
+          
+        </div>
+
+
+
+
+
+        <div class="row">
+
+
+          <div class="col-12 d-flex justify-content-center text-center">
+            <h1 class="mt-4">Proyectos</h1>
+          </div>
+        </div>
+          <div class="row">
+            
+            <div class="col-xl-12 col-xs-12 galeria d-flex justify-content-center text-center" >
+
+              <div class="categorias" id="categorias">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">página web</a>
+                    <a href="#">redes</a>
+                    <a href="#">audiovisual</a>
+                    <a href="#">logotipos</a>
+                  </div>
+            </div>
+
+
+                  <section class="grid d-flex justify-content-center text-center" id="grid">
+
+
+                    <div class="item" 
+                          data-categoria="página web"
+                          data-etiquetas="ciudades autos carros calles"
+                          data-descripcion="<button> Ver +</button> "
+                          
+                        >
+                          <div class=" item-contenido">
+                            <img src="img/galeria/vita.png" alt="">
+                            
+                          </div>
+                        </div>
+
+                       
+
+                    <div class="item" 
+                          data-categoria="redes"
+                          data-etiquetas="Página web"
+                          data-descripcion="1.- Lorem ipsum dolor sit amet consectetur."
+                        >
+                          <div class="item-contenido">
+                            <img src="img/galeria/celu.png" alt="">
+                          </div>
+                    </div>
+
+
+                    <div class="item"
+                      data-categoria="página web"
+                      data-etiquetas="personas mujeres"
+                      data-descripcion="2.- Lorem ipsum dolor sit amet consectetur."
+                    >
+                      <div class="item-contenido">
+                        <img src="img/galeria/vita.png" alt="">
+                      </div>
+                    </div>
+
+                    <div class="item"
+                      data-categoria="logotipos"
+                      data-etiquetas="paisajes montañas mar playas"
+                      data-descripcion="3.- Lorem ipsum dolor sit amet consectetur."
+                    >
+                      <div class="item-contenido">
+                        <img src="img/colo.jpg" alt="">
+                      </div>
+                    </div>
+
+
+                    
+                    <div class="item"
+                      data-categoria="audiovisual"
+                      data-etiquetas="paisajes montañas mar playas"
+                      data-descripcion="3.- Lorem ipsum dolor sit amet consectetur."
+                    >
+                      <div class="item-contenido">
+                        <img src="img/colo.jpg" alt="">
+                      </div>
+                    </div>
+
+                    
+                    <div class="item"
+                    data-categoria="audiovisual"
+                    data-etiquetas="paisajes montañas mar playas"
+                    data-descripcion="3.- Lorem ipsum dolor sit amet consectetur."
+                  >
+                    <div class="item-contenido">
+                      <img src="img/colo.jpg" alt="">
+                    </div>
+                  </div>
+
+
+                  
+             
+                  </section>
+                 
+                     
+                  <section class="overlay" id="overlay">
+                    <div class="contenedor-img">
+                      <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                      <img src="" alt="">
+                    </div>
+                    <p class="descripcion"></p>
+                  </section>
+         
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="container-fluid nosotrxs " id="nosotrxs">
+        <div class="row">
+            <h1 class="col text-center ">Nosotrxs</h1>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="col-sm-6 d-flex justify-content-end">
+              <div class="card ">
+                <div class="card-body">
+                    <img src="img/colo.png" class="card-img-top " alt="">
+                  <h5 class="card-title mt-1">Colo</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-start">
+              <div class="card">
+                <div class="card-body">
+                    <img src="img/ser.png" class="card-img-top" alt=""> 
+                  <h5 class="card-title mt-1">Sergio</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        
+    </div>
+
+    <div class="container-fluid contacto " id="contacto">
+        <div class="row">
+            <h1 class="col text-center ">Contactate</h1>
+        </div>
+
+        
+        <div class="d-flex justify-content-center">
+
+        <form method="POST" action="pag.php" class="needs-validation" novalidate>
+            <div class="form-group mb-3">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" placeholder="Tu nombre" name="nombre" id="nombre">
+            </div>
+            <div class="form-group  mb-3">
+                <label for="mail">Mail</label>
+                <input type="email" class="form-control"  placeholder="name@example.com" name="correo" id="correo">
+              </div>
+        
+            <div class="form-group  mb-3">
+              <label for="mensaje">Contanos tu idea</label>
+              <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+
+
+
+    </div>
+
+
+
+    <footer class="container-fluid " id="footer">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-3 col-12 " >
+                <p class=" text-center">  <i class="fas fa-map-marker-alt"></i> El mundo  </i></p>
+                   
+                </div>
+
+            <div class="col-lg-4 col-md-3 col-12 ">
+               <p class=" text-center">Copyright © 2021 Lapso</p>
+            </div>
+
+            <div class="col-lg-4 col-md-3 col-12 ">
+               
+                <p class=" text-center"> lapso@gmail.com</p>
+            </div>
+            
+        </div>
+
+    </footer>
+
+
+    
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
