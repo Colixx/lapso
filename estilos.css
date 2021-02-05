@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+html {
+    scroll-behavior: smooth; }
 
 html, body{
     overflow-x: hidden;
@@ -10,9 +12,8 @@ html, body{
 
 
 /*----header----*/
-nav{
+/*nav{
     font-family: 'Montserrat', sans-serif;
-    
     background-color: rgba(253, 253, 253, 0.726);
 }
 
@@ -21,7 +22,33 @@ header{
     left: 0;
     top: 0;
     width: 100%;
+}*/
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(253, 253, 253, 0.726);
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+     z-index: 100;
+
 }
+
+.botonmenu{
+    color:#000000;
+    font-size: 16.5px;
+    text-decoration: none;
+    padding: 1vh;
+    text-align: center;
+    
+}
+
+.botonmenu:hover{
+    color:white;
+
+}
+
+
 
 
 /*----home----*/
@@ -33,7 +60,7 @@ header{
 
 .home h1{
     margin-top: 20vh;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
     color: white;
     font-weight: bold;
     font-family: 'Mansalva', cursive;
@@ -217,7 +244,7 @@ header{
   .tab input:checked ~ .tab-content {
     /* Set the max-height to a large number */
     /* Or 100% viewport height */
-    max-height:10vh;
+    max-height:20vh;
     max-width:30vh;
     transition: all ease-in-out 0.4s;
   }
@@ -474,12 +501,26 @@ footer{
 		overflow-x: hidden;
     }
 
+    .menu{
+		margin-top: 2vh;
+		-webkit-justify-content: space-around;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+        height: 10vh;
+}
 
-    header{
     
-        left: 0;
-        top: 0;
-        width: 100%;
+    
+    .botonmenu{
+        color:#000000;
+        font-size: 16.5px;
+        text-decoration: none;
+        padding: 1vh;
+        text-align: center;
+    }
+    
+    .botonmenu:hover{
+        color: black;
     }
 
     /*----nosotros----*/
@@ -503,5 +544,40 @@ footer{
             width: 100%;
         }
     
+
+
+        /*---home---*/
+
+        #home{
+            height: 135vh;
+        }
+
+        .home p{
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            font-size:20px;
+            padding: 1vh;
+        }
+
+        /*---proyectos---*/
+        .galeria {
+            width: 100%;
+            margin-left: 0vh;
+        }
+        #proyectos{
+            height: 185vh;
+        }
+        /*--nosotros---*/
+        .card:first-child{
+            display:block;
+            margin-bottom: 5vh;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        
+        #nosotrxs{
+            height: 150vh;
+        }
+
 
 }
