@@ -105,7 +105,7 @@ header{
 
 /*----proyectos----*/
 #proyectos{
-    height: 200vh;
+    height: 100vh;
 }
 
 .proyectos h1{
@@ -565,7 +565,7 @@ footer{
             margin-left: 0vh;
         }
         #proyectos{
-            height: 185vh;
+            height: 115vh;
         }
         /*--nosotros---*/
         .card:first-child{
